@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"hash"
 
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 	"github.com/xdg-go/stringprep"
-	"go.mongodb.org/ops-manager/opsmngr"
 )
 
 const (

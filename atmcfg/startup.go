@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package atmcfg // Package atmcfg import "go.mongodb.org/ops-manager/atmcfg"
+package atmcfg // Package atmcfg import "github.com/42esoulard/go-client-mongodb-ops-manager/atmcfg"
 
-import "go.mongodb.org/ops-manager/opsmngr"
+import "github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 
 // StartupProcessesByClusterName enables the entire cluster or its processes. Processes are provided in the format {"hostname:port","hostname2:port2"}.
 func StartupProcessesByClusterName(out *opsmngr.AutomationConfig, clusterName string, processes []string) error {

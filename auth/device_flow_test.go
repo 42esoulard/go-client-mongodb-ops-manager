@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 	"github.com/go-test/deep"
-	"go.mongodb.org/ops-manager/opsmngr"
 )
 
 func TestConfig_RequestCode(t *testing.T) {

@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package atmcfg // Package atmcfg import "go.mongodb.org/ops-manager/atmcfg"
+package atmcfg // Package atmcfg import "github.com/42esoulard/go-client-mongodb-ops-manager/atmcfg"
 
 import (
 	"fmt"
 	"time"
 
-	"go.mongodb.org/ops-manager/search"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/search"
 
-	"go.mongodb.org/ops-manager/opsmngr"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 )
 
 // Restart sets all process of a cluster to restart.

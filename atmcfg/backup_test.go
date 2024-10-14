@@ -17,7 +17,7 @@ package atmcfg
 import (
 	"testing"
 
-	"go.mongodb.org/ops-manager/opsmngr"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 )
 
 func TestEnableBackup(t *testing.T) {

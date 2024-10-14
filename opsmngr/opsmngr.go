@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package opsmngr // import "go.mongodb.org/ops-manager/opsmngr"
+package opsmngr // import "github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 
 import (
 	"bytes"

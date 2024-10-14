@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.mongodb.org/ops-manager/opsmngr"
-	"go.mongodb.org/ops-manager/search"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/search"
 )
 
 // StartInitialSync the MongoDB Agent checks whether the specified timestamp is later than the time of the last resync,

@@ -12,7 +12,7 @@ Note that ops-manager only supports the two most recent major versions of Go.
 ## Usage
 
 ```go
-import "go.mongodb.org/ops-manager/opsmngr"
+import "github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 ```
 
 Construct a new Ops Manager client, then use the various services on the client to
@@ -43,7 +43,7 @@ import (
 	"log"
 
 	"github.com/mongodb-forks/digest"
-	"go.mongodb.org/ops-manager/opsmngr"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 )
 
 func main() {

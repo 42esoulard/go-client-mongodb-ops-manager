@@ -15,8 +15,8 @@
 package atmcfg
 
 import (
-	"go.mongodb.org/ops-manager/opsmngr"
-	"go.mongodb.org/ops-manager/search"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/search"
 )
 
 // RemoveByClusterName removes a cluster and its associated processes from the config.

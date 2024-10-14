@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"go.mongodb.org/ops-manager/opsmngr"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 )
 
 const authExpiredError = "DEVICE_AUTHORIZATION_EXPIRED"

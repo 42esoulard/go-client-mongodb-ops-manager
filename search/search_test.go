@@ -17,8 +17,8 @@ package search_test
 import (
 	"testing"
 
-	"go.mongodb.org/ops-manager/opsmngr"
-	"go.mongodb.org/ops-manager/search"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/search"
 )
 
 const otherRS = "other_rs"

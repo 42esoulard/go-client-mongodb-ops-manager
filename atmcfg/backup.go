@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package atmcfg // Package atmcfg import "go.mongodb.org/ops-manager/atmcfg"
+package atmcfg // Package atmcfg import "github.com/42esoulard/go-client-mongodb-ops-manager/atmcfg"
 
 import (
 	"fmt"
 
-	"go.mongodb.org/ops-manager/opsmngr"
+	"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 )
 
 const backupVersion = "7.8.1.1109-1" // backupVersion last backup version released

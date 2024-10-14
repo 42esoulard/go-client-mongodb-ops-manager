@@ -17,6 +17,6 @@ Package atmcfg provides a set of helper methods to help you update the automatio
 
 Usage
 
-	import "go.mongodb.org/ops-manager/atmcfg"
+	import "github.com/42esoulard/go-client-mongodb-ops-manager/atmcfg"
 */
 package atmcfg

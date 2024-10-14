@@ -17,7 +17,7 @@ Package opsmngr provides a client for using the MongoDB Ops Manager and Cloud Ma
 
 Usage:
 
-	import "go.mongodb.org/ops-manager/opsmngr"
+	import "github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 
 Construct a new Ops Manager client, then use the various services on the client to
 access different parts of the Ops Manager API. For example:
@@ -46,7 +46,7 @@ If you have a private and public API token pair, you can use it with the digest 
 		"log"
 
 		"github.com/mongodb-forks/digest"
-		"go.mongodb.org/ops-manager/opsmngr"
+		"github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 	)
 
 	func main() {

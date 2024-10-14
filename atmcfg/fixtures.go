@@ -14,7 +14,7 @@
 
 package atmcfg
 
-import "go.mongodb.org/ops-manager/opsmngr"
+import "github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 
 const (
 	defaultMongoPort        = 27017

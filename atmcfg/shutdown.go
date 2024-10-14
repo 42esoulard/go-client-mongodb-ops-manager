@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package atmcfg // Package atmcfg import "go.mongodb.org/ops-manager/atmcfg"
+package atmcfg // Package atmcfg import "github.com/42esoulard/go-client-mongodb-ops-manager/atmcfg"
 
-import "go.mongodb.org/ops-manager/opsmngr"
+import "github.com/42esoulard/go-client-mongodb-ops-manager/opsmngr"
 
 // Shutdown disables all processes of the given cluster name.
 func Shutdown(out *opsmngr.AutomationConfig, clusterName string) {
