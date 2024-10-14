@@ -1,4 +1,4 @@
-module go.mongodb.org/ops-manager
+module github.com/42esoulard/go-client-mongodb-ops-manager
 
 go 1.18
 
